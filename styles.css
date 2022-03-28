@@ -15,13 +15,15 @@ nav {
 .w-20 {
     width: 20%;
 }
-
+.w-225px{
+ width: 225px;
+}
 .w-340 {
     width: 340px !important;
 }
 
-.w-540 {
-    width: 540px;
+.w-560 {
+    width: 560px;
 }
 
 .wh-22 {
