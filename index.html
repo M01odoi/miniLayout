@@ -31,11 +31,14 @@
 
 
     <div class="fw-bolder text-secondary  w-90 d-flex align-self-center">
-        <div class="m-3 ms-0">Beliebt:</div>
-        <div class="m-3">#sativa</div>
-        <div class="m-3">#gorillaglue</div>
-        <div class="m-3">#kanada</div>
-        <div class="m-3">#linalool</div>
+        <ul class="list-group d-flex flex-row">
+            <li class="list-group-default m-3 ms-0">Beliebt:</li>
+            <li class="list-group-default m-3">#sativa</li>
+            <li class="list-group-default m-3">#gorillaglue</li>
+            <li class="list-group-default m-3">#kanada</li>
+            <li class="list-group-default m-3">#linalool</li>
+        </ul>
+
     </div>
     <div class=" item">
         <section class="position-relative  d-flex flex-column">
@@ -44,8 +47,8 @@
                 Start &#8594; Bluten &#8594; Medizinisch &#8594; 420 Natural 22/1
             </div>
         </section>
-        <div class="d-flex row align-items-center flex-nowrap mt-4">
-            <section class="w-340 mt-5 col  align-self-center mx-5">
+        <div class="d-flex row align-items-start flex-nowrap mt-4">
+            <section class="w-340 mt-5 col-3 mx-5">
                 <img class="border border-2 rounded-3 border-dark" src="./background-img.jpg" alt="">
                 <div class="mt-4 mb-2 fw-bolder">Weitere Bilder</div>
                 <div class="w-100">
@@ -54,23 +57,37 @@
                     <img src="./background-img.jpg" class="border border-2 rounded-3 border-dark w-20 me-3" alt="">
                 </div>
             </section>
-            <section class="mt-5 col align-self-start ms-5">
+            <section class="mt-5 col-6 ms-5">
                 <div class="btn btn-sm btn-light  mb-3">Gorilla Glue</div>
                 <h3 class="mb-3 fw-bold">420 Natural 22/1</h3>
                 <div class="mb-3 d-flex">
-                    <i class="bi bi-star-fill me-2"></i>
-                    <i class="bi bi-star-fill me-2"></i>
-                    <i class="bi bi-star-fill me-2"></i>
-                    <i class="bi bi-star-fill me-2"></i>
-                    <i class="bi bi-star me-2"></i>
-                    <div class="text-decoration-underline me-3">8 Bewertunger</div>
-                    <i class="bi bi-chat-left me-2 "></i>
-                    <div class="text-decoration-underline">16 gestellte Fragen</div>
+                    <ul class="list-group d-flex flex-row">
+                        <li class="list-group-default">
+                            <i class="bi bi-star-fill me-2"></i>
+                        </li>
+                        <li class=" list-group-default">
+                            <i class="bi bi-star-fill me-2"></i>
+                        </li>
+                        <li class=" list-group-default">
+                            <i class="bi bi-star-fill me-2"></i>
+                        </li>
+                        <li class=" list-group-default">
+                            <i class="bi bi-star-fill me-2"></i>
+                        </li>
+                        <li class=" list-group-default">
+                            <i class="bi bi-star me-2"></i>
+                        </li>
+                    </ul>
+                    <a href="#" class="text-dark text-decoration-underline me-3">8 Bewertunger</a>
+                    <a href="#" class="text-dark d-flex">
+                        <i class="bi bi-chat-left me-2 "></i>
+                        16 gestellte Fragen
+                    </a>
                 </div>
-                <div class="btn btn-dark mb-3">
+                <button class="btn btn-dark mb-3">
                     <i class="bi bi-heart me-1"></i>
                     Sorte merken
-                </div>
+                </button>
                 <div class="mt-5">
                     <div class="d-flex w-100">
                         <div class="d-flex flex-column me-4">
@@ -80,7 +97,7 @@
                             </div>
                             <div>
                                 <ul class="list-group list-group-flush list-group-horizontal mt-2">
-                                    <li class=" rounded list-group-item border-4 border-end-0 border-start-0 border-top  border-bottom-0  border-dark me-1">
+                                    <li class=" rounded list-group-default w-20 border-4 border-end-0 border-start-0 border-top  border-bottom-0  border-dark me-1">
                                     </li>
                                     <li class=" rounded list-group-item border-4 border-end-0 border-start-0 border-top  border-bottom-0  border-dark me-1">
                                     </li>
@@ -193,7 +210,7 @@
                     </div>
                 </div>
             </section>
-            <div class="w-100 d-none d-md-block"></div>
+            <!--            <div class="w-100 d-none d-md-block"></div>-->
         </div>
     </div>
 </div>

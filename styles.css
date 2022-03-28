@@ -17,7 +17,7 @@ nav {
 }
 
 .w-340 {
-    width: 340px;
+    width: 340px !important;
 }
 
 .w-540 {
@@ -43,4 +43,7 @@ nav {
 
 .btn-yellow {
     background: #fae8d0 !important;
+}
+.list-group-default{
+    list-style: none;
 }
